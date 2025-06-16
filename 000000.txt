@@ -6,20 +6,15 @@ function Notify(Title1, Text1, Icon1, Time1)
     Duration = Time1,
   })
 end
-Notify("落叶中心", "作者krX", "rbxassetid://17360377302", 3)
+Notify("绿叶脚本", "作者小银子", "rbxassetid://17360377302", 3)
 Notify("永久免费", "祝你玩的开心","rbxassetid://17360377302",3)
 Notify("永久免费", "没有盈利","rbxassetid://17360377302",3)
-Notify("落叶中心", "永久免费","rbxassetid://17360377302",3)
+Notify("绿叶脚本", "永久免费","rbxassetid://17360377302",3)
 Notify("拒绝跑路", "拒绝倒卖","rbxassetid://17360377302",3)
 Notify("启动完成", "祝你玩的开心","rbxassetid://17360377302",5)
 
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/XiaoYunCN/UWU/main/Library%2FSilent%20ui'))()
-local Window = Library:new("落叶中心 X");
-
-local creds = Window:Tab("公告",'16060333448')
-local bin = creds:section("信息",true)
-local about = creds:section("作者",true)
-
+local Window = Library:new("绿叶脚本");
 local Main = Window:Tab("主要",'16060333448')
 local General = Main:section("玩家",true)
 local GX = Main:section("通用",true)
