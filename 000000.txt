@@ -13,7 +13,7 @@ Notify("绿叶脚本", "永久免费","rbxassetid://17360377302",3)
 Notify("拒绝跑路", "拒绝倒卖","rbxassetid://17360377302",3)
 Notify("启动完成", "祝你玩的开心","rbxassetid://17360377302",5)
 
-local Library = loadstring(game:HttpGet("https://pastebin.com/raw/FUEx0f3G"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/refs/heads/master/Example.lua"))()
 local Window = Library:new("绿叶脚本");
 local Main = Window:Tab("主要",'16060333448')
 local General = Main:section("玩家",true)
