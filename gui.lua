@@ -259,4 +259,8 @@ Fluent:Notify({
 -- which has been marked to be one that auto loads!
 SaveManager:LoadAutoloadConfig()
 
-local OSQ = Window:Tab("死铁鬼",'16060333448')
+local Tabs = {
+    Main = Window:AddTab({ Title = "114514", Icon = "" }),
+    114514:Button("飞行v3",function()
+  loadstring(game:HttpGet'https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt')()
+end)
