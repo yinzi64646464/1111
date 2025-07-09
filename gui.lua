@@ -260,7 +260,4 @@ Fluent:Notify({
 SaveManager:LoadAutoloadConfig()
 
 local Tabs = {
-    Main = Window:AddTab({ Title = "114514", Icon = "" }),
-    114514:Button("飞行v3",function()
-  loadstring(game:HttpGet'https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt')()
-end)
+    he = Window:AddTab({ Title = "he", Icon = "" })
