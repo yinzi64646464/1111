@@ -1,9 +1,9 @@
 local WindUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/DevSloPo/Main/refs/heads/main/main.lua"))()
 
 local Window = WindUI:CreateWindow({
-    Title = "问号脚本丨选择服务器",
+    Title = "?丨选择服务器",
     Icon = "moon",
-    Author = "作者:小银子",前面代码是抄的xk 
+    Author = "作者:银子",
     Folder = "CloudHub",
     Size = UDim2.fromOffset(400, 300),
     Transparent = true,
@@ -27,11 +27,33 @@ Window:EditOpenButton({
     ),
     Draggable = true,
 })
+
 local Tabs = {
     N = Window:Tab({ Title = "服务器", Icon = "house", Desc = "狗屎" }),
-  Tabs.N:Button({
-    Title = "没做",
+    divider1 = Window:Divider(),
+    B = Window:Tab({ Title = "通用", Icon = "eye", Desc = "狗屎" }),
+}
+
+Window:SelectTab(1)
+
+Tabs.N:Button({
+    Title = "叶子",
     Callback = function()
-    114514
+    (loadstring or load)(game:HttpGet("https://getnative.cc/script/loader"))()
+    end
+})
+
+Tabs.N:Button({
+    Title = "刷债券",
+    Callback = function()
+    getgenv().autobond=true
+loadstring(game:HttpGet("https://raw.githubusercontent.com/selftilted/flighttosky/refs/heads/main/DeadRails"))()
+    end
+})
+
+Tabs.B:Button({
+    Title = "通用",
+    Callback = function()
+    没开始做
     end
 })
