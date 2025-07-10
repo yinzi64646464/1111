@@ -261,3 +261,4 @@ SaveManager:LoadAutoloadConfig()
 
 local Tabs = {
     he = Window:AddTab({ Title = "he", Icon = "" })
+    }
